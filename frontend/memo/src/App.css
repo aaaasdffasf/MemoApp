@@ -1,0 +1,20 @@
+/* App 전체 레이아웃 설정 */
+.App {
+  height: 100vh;
+  position: relative;
+}
+
+/* 새 이미지 고정 설정 */
+.bird-image {
+  position: fixed;
+  top: 0; /* 상단에 고정 */
+  right: 0; /* 오른쪽에 고정 */
+  bottom: 0; /* 하단에 고정 */
+  left: 0; /* 왼쪽에 고정 */
+  background-image: url('C:/Users/DCUSW/Pictures/Camera Roll/sky.webp'); /* 새 이미지 경로 */
+  background-size: cover; /* 이미지가 전체 영역을 덮도록 설정 */
+  background-repeat: no-repeat; /* 이미지 반복 없음 */
+  background-position: center; /* 이미지 중앙 정렬 */
+  z-index: -1; /* 이미지가 다른 콘텐츠 뒤에 배치되도록 설정 */
+  opacity: 0.9; /* 이미지 투명도 */
+}

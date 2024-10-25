@@ -1,0 +1,23 @@
+.user_information {
+  background-color: #f9f9f9; /* 부드러운 배경색 */
+  padding: 16px; /* 내부 여백 */
+  border-radius: 8px; /* 모서리 둥글게 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 가벼운 그림자 */
+  margin-bottom: 16px; /* 아래쪽 여백 */
+}
+
+.user_information h6 {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.user_information p {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.user_information p:last-child {
+  margin-bottom: 0;
+}
